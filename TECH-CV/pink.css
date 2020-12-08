@@ -1,1 +1,22 @@
 /**/
+
+.aside.logo a::before {
+    border-top: 4px solid #ec1839;
+    border-left: 4px solid #ec1839;
+}
+
+.aside.logo a::before {
+    border-bottom: 4px solid #ec1839;
+    border-right: 4px solid #ec1839;
+}
+
+.aside .nav li a:hover,
+.aside .nav li a:active {
+    color: #ec1839;
+}
+
+.aside .nav-toggler span,
+.aside .nav-toggler ::before,
+.aside .nav-toggler span::after {
+    background-color: #ec1839;
+}
